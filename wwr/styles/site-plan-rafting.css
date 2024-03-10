@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+body {
+    font-family: var(--paragraph-font);
+    max-width: 960 px;
+    padding: 20px;
+}
+:root {
+    --primary-color: #0C70BD;
+    --secondary-color: #B06E37;
+    --accent1-color: #4E6D1F;
+    --accent2-color: #FFFFF1;
+    --heading-font: 'Merriweather', serif;
+    --paragraph-font: 'PT Serif', serif;
+    --navigation-background-color: #B06E37;
+    --navigation-link-color: #FFFFF1;
+    --navigation-hover-link-color: #FFFFF1;
+    --navigation-hover-background-color: #4E6D1F1;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: var(--heading-font);
+    color: var(--primary-color);
+}
+header {
+    padding: 20px;
+    background-color: var(--secondary-color);
+}
+p {
+    padding: 25px;
+}
+nav {
+    background-color: var(--navigation-background-color);
+    font-size: 1.2rem;
+    display: flex;
+}
+nav a {
+    display: block;
+    color: var(--navigation-link-color);
+    text-decoration: none;
+    padding: 1rem;
+}
+nav a:link, nav a:visited {
+    color: var(--navigation-link-color)
+}
+nav a:hover {
+    color: var(--navigation-hover-link-color);
+    background-color: var(--navigation-hover-background-color);
+}
