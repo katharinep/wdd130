@@ -13,8 +13,8 @@ body {
     --paragraph-font: 'PT Serif', serif;
     --navigation-background-color: #B06E37;
     --navigation-link-color: #FFFFF1;
-    --navigation-hover-link-color: #FFFFF1;
-    --navigation-hover-background-color: #4E6D1F;
+    --navigation-hover-link-color: #4E6D1;
+    --navigation-hover-background-color: #FFFFF1;
 }
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
