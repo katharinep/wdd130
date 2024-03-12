@@ -20,7 +20,7 @@ main img {
     padding: 2px;
     box-shadow: 0 0 30px gray;
     float: right;
-    margin: 0, 0, 1rem, 1rem;
+    margin: (0, 0, 1rem, 1rem);
 }
 
 p {
@@ -68,3 +68,4 @@ main {
     background-color: #F0F8FF;
     color: #000;
 }
+/* Last modified 12 March 2024 */
