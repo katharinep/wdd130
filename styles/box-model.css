@@ -16,11 +16,11 @@
     height: auto;
 }
 
-blockquote {
+.blockquote {
 	margin: 0;
 }
 
-cite {
+.cite {
 	display: block;
     border-top: 2px dotted #FFFFFF;
     text-align: right;
