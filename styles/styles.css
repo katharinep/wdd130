@@ -77,9 +77,9 @@ main {
     color: #000;
 }
 
-header, footer {
+header, footer, .grid {
     max-width: 840px;
-    margin: auto;
+    margin: 0 auto;
 }
 
 .grid {
