@@ -23,10 +23,10 @@ h1 {
 main img {
     width: 150px;
     height: auto;
+    float: right;
     border: 1px solid steelblue;
     padding: 2px;
     box-shadow: 0 0 30px gray;
-    float: right;
 }
 
 p {
@@ -38,11 +38,13 @@ aside {
     position: relative;
     grid-column: 1 / 2;
     grid-row: 1 / 2;
+    align-items: center;
 }
 
 aside img {
     width: 200px;
     height: auto;
+
 }
 
 aside h2 {
@@ -71,7 +73,7 @@ main {
 /* Class Selectors */
 .box {
     padding: 1rem;
-    border: 1px solid rgba(0, 0, 0, 0.1);
+    border: 2px solid rgba(0, 0, 0, 0.1);
     margin: 1rem;
     background-color: #F0F8FF;
     color: #000;
