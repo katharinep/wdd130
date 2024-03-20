@@ -1,16 +1,23 @@
 nav {
     background-color: steelblue;
     padding: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 nav a {
     color: white;
     display: block;
-    padding: 20px;
+    padding: 0.5rem;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 700;
 }
 
 h1 {
     color: steelblue;
+    border-bottom: solid 1px steelblue;
 }
 
 main img {
@@ -28,8 +35,9 @@ p {
 
 aside {
     width: 20rem;
-    text-align: center;
     position: relative;
+    grid-column: 1 / 2;
+    grid-row: 1 / 2;
 }
 
 aside img {
@@ -40,7 +48,7 @@ aside img {
 aside h2 {
     position: absolute;
     top: 25px;
-    left: 68px;
+    left: 23px;
 
 }
 
@@ -51,7 +59,8 @@ footer {
 }
 
 main {
-    max-width: none;
+    grid-column: 1 / 2;
+    margin: 1rem;
 }
 
 * {
@@ -67,4 +76,14 @@ main {
     background-color: #F0F8FF;
     color: #000;
 }
-/* Last modified 12 March 2024 */
+
+header, footer {
+    max-width: 840px;
+    margin: auto;
+}
+
+.grid {
+    display: grid;
+    align-items: center;
+}
+/* Last modified 20 March 2024 */
