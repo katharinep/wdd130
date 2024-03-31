@@ -47,7 +47,6 @@ nav a:hover {
 }
 
 .container {
-    box-sizing: border-box;
     display: flex;
     border: 1px solid darkgray;
     grid-template-columns: 1fr 1fr;
