@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en-US">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <meta name="description" content="BYU-I WDD 130 quiz">
+    <meta name="author" content="Katharine Yuan">
+    <title>Katharine Yuan | WDD 130 Quiz</title>
+    <link rel="stylesheet" href="styles/quiz.css">
+</head>
+<body>
+    <h1>CSS and HTML Quiz</h1>
+    <form>
+        <fieldset class="form">
+            <legend>Questions</legend>
+            <div class="form-item">
+                <label for="q1">1. What does HTML stand for? </label>
+                <input type="text" id="q1" name="q1">
+            </div>
+            <div class="form-item">
+                <label>2. What is the difference between inline and external CSS?</label>
+                <textarea id="q2" name="q2" rows="4" placeholder="Your answer here"></textarea>
+            </div>
+            <div class="form-item">
+                <label>3. Which HTML tag is used to define an unordered list?</label>
+                <select id="q3" name="q3">
+                    <option value="choose">Choose</option>
+                    <option value="li">li</option>
+                    <option value="ol">ol</option>
+                    <option value="ul">ul</option>
+                    <option value="id">id</option>
+                </select>
+            </div>
+            <div class="form-item">
+                <label>4. On a scale of 1-4, how much do you enjoy styling with CSS?</label>
+                <input type="number" id="q4" name="q4">
+            </div>
+            <button type="submit">Submit Quiz</button>
+        </fieldset>
+    </form>
+</body>

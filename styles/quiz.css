@@ -1,0 +1,47 @@
+* {
+    max-width: 500px;
+}
+
+h1 {
+    text-align: center;
+    border-bottom: 2px solid steelblue;
+}
+
+legend {
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+fieldset {
+    width: 100%;
+    display: grid;
+    background-color: lightgray;
+    border-radius: 5px;
+    grid-template-columns: 1fr;
+    justify-content: center;
+}
+
+.form-item {
+    font-size: 1rem;
+    margin: 10px;
+    grid-template-rows: auto auto;
+    align-items: center;
+    
+}
+
+textarea {
+    width: 90%;
+}
+
+button {
+    font-size: 1rem;
+    padding: 5px;
+    width: 30%;
+    border-radius: 5px;
+    background-color: steelblue;
+    color: #FFFFF1;
+}
+
+button:hover {
+    background-color: orange;
+}
