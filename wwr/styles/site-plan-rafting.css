@@ -11,36 +11,40 @@ body {
     max-width: 960px;
     padding: 20px;
 }
+
 :root {
     --primary-color: #0C5389;
-    --secondary-color: #B06E37;
+    --secondary-color: #784B26;
     --accent1-color: #4E6D1F;
     --accent2-color: #FFFFF1;
     --heading-font: 'Merriweather', serif;
     --paragraph-font: 'Merriweather', serif;
-    --nav-background-color: #B06E37;
+    --nav-background-color: #784B26;
     --nav-link-color: #FFFFF1;
     --nav-hover-link-color: #4E6D1F;
     --nav-hover-background-color: #FFFFF1;
 }
+/* retired color: #B06E37 */
+
 h1, h2, h3, h4, h5, h6 {
     font-family: var(--heading-font);
     color: var(--primary-color);
 }
 
 header {
-    margin: 0;
-    width: 100%;
-    padding: 20px;
     display: grid;
-    grid-template-columns: 1fr 3fr;
-    align-content: center;
+    grid-template-columns: 1fr 4fr;
+    align-items: center;
+    justify-items: center;
+    margin: 0 auto;
+    padding: 10px;
+    width: 980px;
     background-color: var(--secondary-color);
 }
 
 header img {
     margin: 0 10px 0 10px;
-    max-width: 150px;
+    max-width: 200px;
     height: auto;
 }
 
@@ -50,11 +54,11 @@ p {
 
 nav {
     background-color: var(--nav-background-color);
-    font-size: 1.2rem;
+    font-size: 1.5rem;
     font-family: "merriweather", serif;
     display: flex;
-    gap: space-around;
-    grid-column: 2 / 3;
+    justify-content: center;
+    width: 500px;
 }
 
 nav a {
@@ -73,12 +77,23 @@ nav a:hover {
     background-color: var(--nav-hover-background-color);
 }
 
-footer {
-    display: grid;
+.footer {
+    display: flex;
     width: 1000px;
     justify-content: right;
+    align-items: center;
+    background-color: #784B26;
+    color:#FFFFF1;
 }
 
+.sociallinks {
+    justify-items: flex-end;
+    gap: 10px;
+}
+
+.footer p {
+    font-size: 1.3rem;
+}
 
 /* about page styling */
 .hero {
@@ -121,6 +136,10 @@ footer {
     height: auto;
 }
 
+.hero article h2 {
+    color:#FFFFF1;
+}
+
 .history {
     display: grid;
     background-color: #4E6D1F;
@@ -155,17 +174,28 @@ footer {
 }
 
 .adventure {
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    gap: 10px;
-    width: 1000px;
+    display: block;
     text-align: center;
     background-color:#0C5389;
+    width: 980px;
+    padding: 10px;
+}
+
+.adventureimg {
+    display: grid;
+    grid-template-columns: repeat(5, 150px);
+    justify-items: center;
+    justify-content: space-around;
+}
+
+.adventure img {
+    object-fit: cover;
+    width: 100%;
+    max-height: 100%;
 }
 
 .adventure h2 {
     color:#FFFFF1;
-    grid-area: 1 / 1 / 2 / 4;
     padding: 15px;
 }
 
