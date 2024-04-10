@@ -9,8 +9,7 @@
         <link rel="stylesheet" href="styles/site-plan-rafting.css">
     </head>
     <body>
-        <header>
-        <div class="grid">
+        <header class="grid">
             <img src="images/logo.webp" alt="Rafting Logo">
             <nav>
                 <a href="index.html">Home</a>
@@ -18,7 +17,6 @@
                 <a href="trips.html">Trips</a>
                 <a href="contact.html">Contact Us</a>
             </nav>
-        </div>
         </header>
         <main>
             <div class="container">
@@ -32,14 +30,20 @@
                 </div>
                 <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d97164.43408230877!2d-109.57476502884525!3d40.4445360815154!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1slodore%20canyon!5e0!3m2!1sen!2sus!4v1711844068188!5m2!1sen!2sus" width="300" height="225" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
             </div>
-            <figure class="employee">
-                <img src="images/happyemployee1.webp" alt="Rafting Guide" width="140" height="140">
-                <figcaption>Terry, Rafting Guide</figcaption>
-                <img src="images/happyemployee2.webp" alt="Rafting Guide" width="140" height="140">
-                <figcaption>Will, Rafting Guide</figcaption>
-                <img src="images/happyemployee3.webp" alt="Booking Agent" width="140" height="140">
-                <figcaption>Mary, Booking Agent</figcaption>
-            </figure>
+            <div class="employee">
+                <figure>
+                    <img src="images/happyemployee1.webp" alt="Rafting Guide">
+                    <figcaption>Terry, Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happyemployee2.webp" alt="Rafting Guide">
+                    <figcaption>Will, Rafting Guide</figcaption>
+                </figure>
+                <figure>
+                    <img src="images/happyemployee3.webp" alt="Booking Agent">
+                    <figcaption>Mary, Booking Agent</figcaption>
+                </figure>
+            </div>
             <form>
                 <label>Query Form</label>
                 <div class="form-item columns2">
@@ -52,9 +56,9 @@
                 </div>
                 <fieldset class='form-item columns1'>
                     <legend>Reason</legend>
-                    <input type="radio" id="general" name="reason">General Inquiry</input>
-                    <input type="radio" id="reservation" name="reason">Reservation Question</input>
-                    <input type="radio" id="suggestion" name="reason">Website Suggestion</input>
+                    <input type="radio" id="general" name="reason">General Inquiry
+                    <input type="radio" id="reservation" name="reason">Reservation Question
+                    <input type="radio" id="suggestion" name="reason">Website Suggestion
                 </fieldset>
                 <div class="form-item">
                     <label for="message">Message:</label>
@@ -62,7 +66,7 @@
                 </div>
                 <div>
                     <input type="checkbox" id="newsletter" name="newsletter">
-                    <label for="checkbox">Please subscribe me to the monthly newsletter</label>
+                    <label for="newsletter">Please subscribe me to the monthly newsletter</label>
                 </div>
                 <div class="button">
                     <input type="submit" id="button" name="button">
@@ -70,19 +74,22 @@
             </form>
         </main>    
         <footer>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.webp" alt="Facebook" width="75px" height="auto">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="images/x.webp" alt="Twitter" width="75px" height="auto">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.webp" alt="Instagram" width="75px" height="auto">
-                </a>
-            </nav>
-            <p>©2024 | Club Rafting | Katharine Yuan</p>
+            <div class="footer">
+                <p>©2024 | Club Rafting | Katharine Yuan</p>
+                <nav class="sociallinks">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.webp" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/x.webp" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.webp" alt="instagram">
+                    </a>
+                </nav>
+            </div>
+            <a href="images/contact_wireframe.png"></a>
         </footer>
+        <!--Last modified 9 April 2024-->
     </body>
-<!--Last modified 2 April 2024-->
 </html>

@@ -84,3 +84,32 @@ article img {
 .grid {
     grid-template-columns: 1fr 1fr;
 }
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.trips {
+    grid-column: 1;
+}
+
+.contact {
+    grid-column: 2;
+}
+
+.river {
+    grid-column: 2;
+}
+
+.adventure img {
+    width: 300px;
+}
+
+
+footer {
+    display: grid;
+    grid-column: 2 / 3;
+    width: 1000px;
+    justify-content: right;
+}
