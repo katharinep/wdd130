@@ -9,8 +9,7 @@
         <link rel="stylesheet" href="styles/rafting.css">
     </head>
     <body>
-        <header>
-        <div class="grid">
+        <header class="grid">
             <img src="images/logo.webp" alt="Rafting Logo">
             <nav>
                 <a href="index.html">Home</a>
@@ -18,37 +17,49 @@
                 <a href="trips.html">Trips</a>
                 <a href="contact.html">Contact Us</a>
             </nav>
-        </div>
         </header>
         <main>
-            <div id="grid-container" >
-                <h2>Trips</h2>
-                <div id="trip1">
-                    <h2>Flaming Gorge</h2>
+            <div class="grid-container">
+                <div class="trips">
+                    <h2>Trips</h2>
+                    <h3>Flaming Gorge</h3>
                     <img src="images/flaminggorge.webp" alt="flaming gorge">
                     <button type="submit">Book Trip</button>
-                </div>
-                <div id="trip2">
-                    <h2>Green River</h2>
+                    <h3>Green River</h3>
                     <img src="images/greenriver.webp" alt="green river">
                     <button type="submit">Book Trip</button>
-                </div>
-                <div id="trip3">
-                    <h2>Split Mountain Canyon</h2>
+                    <h3>Split Mountain Canyon</h3>
                     <img src="images/splitmountain.webp" alt="split mountain canyon">
                     <button type="submit">Book Trip</button>
+                    <table>
+                        <tr>
+                            <th>River</th>
+                            <th>Trip Length</th>
+                        </tr>
+                        <tr>
+                            <td>Flaming Gorge</td>
+                            <td>1 Day</td>
+                        </tr>
+                        <tr>
+                            <td>Green River</td>
+                            <td>2 Days</td>
+                        </tr>
+                        <tr>
+                            <td>Split Mountain Canyon</td>
+                            <td>3 Days</td>
+                        </tr>
+                    </table>
                 </div>
-            </div>
-            <aside id="contact">
-                <h2>Book Your Adventure Today!</h2>
-                <img src="images/ram.webp" alt="ram">
-                <a href="https://katharinep.github.io/wdd130/wwr/contact.html">Contact Us</a>
-            </aside>
-            <aside id="river">
-                <h2>River of the Month</h2>
-                <h1>Yampa River</h1>
-                <img src="images/yampariver.webp" alt="Yampa River">
-                <p>The Yampa River runs from the mountains of Colorado to the Green River. 
+                <aside id="contact">
+                    <h2>Book Your Adventure Today!</h2>
+                    <img src="images/ram.webp" alt="ram">
+                    <a href="https://katharinep.github.io/wdd130/wwr/contact.html">Contact Us</a>
+                </aside>
+                <aside id="river">
+                    <h2>River of the Month</h2>
+                    <h1>Yampa River</h1>
+                    <img src="images/yampariver.webp" alt="Yampa River">
+                    <p>The Yampa River runs from the mountains of Colorado to the Green River. 
                     It joins the Green River at Echo Park. The final stretch of the river 
                     runs right through Dinosaur National Monument. The river is only 
                     navigable in May and June when the local runoff raises the river's level.
@@ -57,23 +68,26 @@
                     Consequuntur laborum corrupti iste. Suscipit, deleniti omnis eaque 
                     libero dolore fuga placeat dolorem commodi dicta, magni unde, laborum 
                     officia rem dignissimos sequi.</p>
-            </aside>
+                </aside>
+            </div>
         </main>    
         <footer>
-            <nav class="sociallinks">
-                <a href="https://facebook.com">
-                    <img src="images/facebook.webp" alt="Facebook">
-                </a>
-                <a href="https://twitter.com">
-                    <img src="images/x.webp" alt="Twitter">
-                </a>
-                <a href="https://instagram.com">
-                    <img src="images/instagram.webp" alt="Instagram">
-                </a>
-            </nav>
-            <p>©2024 | Club Rafting | Katharine Yuan</p>
-            <img src="images/trips_wireframe.png" alt="trips page mockup">
+            <div class="footer">
+                <p>©2024 | Club Rafting | Katharine Yuan</p>
+                <nav class="sociallinks">
+                    <a href="https://facebook.com">
+                        <img src="images/facebook.webp" alt="Facebook">
+                    </a>
+                    <a href="https://twitter.com">
+                        <img src="images/x.webp" alt="Twitter">
+                    </a>
+                    <a href="https://instagram.com">
+                        <img src="images/instagram.webp" alt="instagram">
+                    </a>
+                </nav>
+            </div>
+            <a href="images/trips_wireframe.png"></a>
         </footer>
     </body>
-<!--Last modified 5 April 2024-->
+<!--Last modified 10 April 2024-->
 </html>

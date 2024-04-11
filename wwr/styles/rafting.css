@@ -112,7 +112,7 @@ nav a:hover {
     left: 40%;
     color:#0C5389;
     font-size: 2rem;
-    background-color:rgb(255, 255, 241, .6);
+    background-color:rgb(255, 255, 241, .8);
     padding: 10px;
     border-radius: 5px;
 }
@@ -278,4 +278,142 @@ figure img {
 .button {
     margin: 1.2em auto;
     padding: 5px;
+}
+
+/* Trips Page Styling */
+/* grid-container has classes for each trip. remove? */
+.grid-container {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    width: 960px;
+}
+
+.contact {
+    grid-column: 2;
+    background-color: #4E6D1F;
+}
+
+.river {
+    width: 200px;
+    grid-column: 2;
+    box-sizing: border-box;
+    position: absolute;
+    left: 760px;
+    top: 20px;
+    background-color: #0C5389;
+    text-align: center;
+}
+
+.trips {
+    grid-column: 1;
+    background-color:#784B26;
+}
+
+aside {
+    position: relative;
+}
+
+/* home page styling */
+
+.welcome {
+    position: relative;
+    width: 1000px;
+}
+
+.welcome img{
+    width: 100%;
+    height: auto;
+}
+
+.welcome h1 {
+    position: absolute;
+    top: 20px;
+    left: 30%;
+    color:#0C5389;
+    font-size: 2rem;
+    background-color:rgb(255, 255, 241, .8);
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.welcome h2 {
+    color:#FFFFF1;
+    padding: 0 0 10px 0;
+    text-align: center;
+}
+
+.welcome article {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 80%;
+    color:#FFFFF1;
+    background-color: rgb(12, 83, 137, .7);
+}
+
+.homegrid {
+    max-width: 960px;
+    display: grid;
+    grid-template-columns: 1fr 275px;
+    gap: 5px;
+}
+
+.tripgrid {
+    grid-column: 1;
+    display: grid;
+    margin: 0;
+    background-color:#0C5389;
+    width: 575px;
+    color:#FFFFF1;
+}
+
+.tripgrid h2 {
+    color:#FFFFF1;
+    text-align: center;
+}
+.tripgrid img {
+    max-width: 80%;
+    padding: 20px;
+    margin: auto;
+}
+
+.newsletterform {
+    grid-column: 2;
+    width: 300px;
+    height: 500px;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    background-color:#FFFFF1;
+    border-radius: 5px;
+    grid-template-columns: 1fr;
+    row-gap: 5px;
+    justify-content: center;
+    /* width: 300px; */
+}
+
+.hometrips {
+    grid-column: 2;
+    display: grid;
+    justify-content: center;
+    width: 300px;
+    background-color:#4E6D1F;
+    padding: 5px;
+}
+
+.hometrips h2 {
+    color:#FFFFF1;
+    text-align: center;
+}
+.hometrips img {
+    max-width: 275px;
+    margin: 0;
+    padding: 10px;
+}
+
+.hometrips button {
+    padding: 5px;
+    margin: 0;
+    justify-self: center;
 }
