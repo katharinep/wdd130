@@ -303,24 +303,34 @@ figure img {
 
 .trips {
     grid-column: 1;
+    display: grid;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid black;
     background-color:#784B26;
     color:#FFFFF1
 }
 
 .trips h2 {
     color:#FFFFF1;
+    padding: 10px;
 }
 
 .trips h3 {
     color:#FFFFF1;
+    padding: 10px;
+}
+
+.trips button {
+    width: 100px;
+    padding: 2px;
+    margin: 10px;
 }
 
 .table {
+    width: 350px;
     border: 2px solid black;
-}
-
-aside {
-    position: relative;
+    padding: 10px;
 }
 
 /* home page styling */
