@@ -296,17 +296,27 @@ figure img {
 .river {
     width: 200px;
     grid-column: 2;
-    box-sizing: border-box;
-    position: absolute;
-    left: 760px;
-    top: 20px;
+    display: grid;
+    justify-content: center;
     background-color: #0C5389;
-    text-align: center;
 }
 
 .trips {
     grid-column: 1;
     background-color:#784B26;
+    color:#FFFFF1
+}
+
+.trips h2 {
+    color:#FFFFF1;
+}
+
+.trips h3 {
+    color:#FFFFF1;
+}
+
+.table {
+    border: 2px solid black;
 }
 
 aside {
